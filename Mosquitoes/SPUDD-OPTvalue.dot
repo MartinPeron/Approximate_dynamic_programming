@@ -1,0 +1,55 @@
+digraph "DD" {
+size = "7.5,10"
+ratio=1.0;
+center = true;
+edge [dir = none];
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a0" [label="season"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a1" [label="mainland"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a2" [label="island1"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a3" [label="island2"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a4" [label="island3"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a5"  [label = "    1.49761170596034     1.49761170596034 "];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a6"  [label = "    1.48986438686263     1.48986438686263 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a7" [label="island3"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a8"  [label = "    1.48459575189934     1.48459575189934 "];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a9"  [label = "    1.47720617683401     1.47720617683401 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a10" [label="island2"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a11" [label="island3"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a12"  [label = "    1.45720173589227     1.45720173589227 "];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a13"  [label = "    1.45135710270530     1.45135710270530 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a14" [label="island3"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a15"  [label = "    1.44689628229222     1.44689628229222 "];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a16"  [label = "    1.44110310317840     1.44110310317840 "];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a17"  [label = "    0.00000000000000     0.00000000000000 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a18" [label="mainland"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a19" [label="island1"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a20" [label="island2"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a21" [label="island3"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a22"  [label = "    1.44104401384081     1.44104401384081 "];}
+"a4" -> "a5" [label = "sus"];
+"a4" -> "a6" [label = "inf"];
+"a3" -> "a4" [label = "sus"];
+"a7" -> "a8" [label = "sus"];
+"a7" -> "a9" [label = "inf"];
+"a3" -> "a7" [label = "inf"];
+"a2" -> "a3" [label = "sus"];
+"a11" -> "a12" [label = "sus"];
+"a11" -> "a13" [label = "inf"];
+"a10" -> "a11" [label = "sus"];
+"a14" -> "a15" [label = "sus"];
+"a14" -> "a16" [label = "inf"];
+"a10" -> "a14" [label = "inf"];
+"a2" -> "a10" [label = "inf"];
+"a1" -> "a2" [label = "sus"];
+"a1" -> "a17" [label = "inf"];
+"a0" -> "a1" [label = "dry"];
+"a19" -> "a3" [label = "sus"];
+"a20" -> "a11" [label = "sus"];
+"a21" -> "a15" [label = "sus"];
+"a21" -> "a22" [label = "inf"];
+"a20" -> "a21" [label = "inf"];
+"a19" -> "a20" [label = "inf"];
+"a18" -> "a19" [label = "sus"];
+"a18" -> "a17" [label = "inf"];
+"a0" -> "a18" [label = "wet"];
+}

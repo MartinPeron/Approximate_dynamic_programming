@@ -1,0 +1,533 @@
+digraph "DD" {
+size = "7.5,10"
+ratio=1.0;
+center = true;
+edge [dir = none];
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a0" [label="season"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a1" [label="mainland"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a2" [label="island1"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a3" [label="island2"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a4" [label="island3"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a5" [label="island4"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a6" [label="island5"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a7" [label="island6"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a8" [label="island7"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a9" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a10" [label="island9"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a11" [label="island11"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a12" [label = "action32111111111111111 "];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a13" [label = "action21111111113111111 "];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a14" [label = "action21111111311111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a15" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a16" [label = "action21111113111111111 "];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a17" [label = "action11111112311111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a18" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a19" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a20" [label = "action21111131111111111 "];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a21" [label = "action11111121311111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a22" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a23" [label = "action11111132111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a24" [label="island7"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a25" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a26" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a27" [label = "action21111311111111111 "];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a28" [label = "action11111211311111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a29" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a30" [label = "action11111312111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a31" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a32" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a33" [label = "action11111231111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a34" [label="island6"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a35" [label="island7"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a36" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a37" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a38" [label = "action21113111111111111 "];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a39" [label = "action11113111211111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a40" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a41" [label = "action11113112111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a42" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a43" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a44" [label = "action11113121111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a45" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a46" [label = "action11113211111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a47" [label="island5"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a48" [label="island6"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a49" [label="island7"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a50" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a51" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a52" [label = "action21131111111111111 "];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a53" [label = "action11131111211111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a54" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a55" [label = "action11131112111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a56" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a57" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a58" [label = "action11131121111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a59" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a60" [label = "action11131211111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a61" [label="island6"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a62" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a63" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a64" [label = "action11132111111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a65" [label="island5"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a66" [label="island6"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a67" [label="island7"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a68" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a69" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a70" [label = "action21311111111111111 "];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a71" [label = "action11311111211111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a72" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a73" [label = "action11311112111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a74" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a75" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a76" [label = "action11311121111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a77" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a78" [label = "action11311211111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a79" [label="island6"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a80" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a81" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a82" [label = "action11312111111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a83" [label="island3"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a84" [label="island5"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a85" [label="island6"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a86" [label="island7"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a87" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a88" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a89" [label = "action23111111111111111 "];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a90" [label = "action13111111211111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a91" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a92" [label = "action13111112111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a93" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a94" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a95" [label = "action13111121111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a96" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a97" [label = "action13111211111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a98" [label="island6"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a99" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a100" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a101" [label = "action13112111111111111 "];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a102" [label = "action13211111111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a103" [label="island2"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a104" [label="island3"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a105" [label="island5"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a106" [label="island6"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a107" [label="island7"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a108" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a109" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a110" [label = "action31111111211111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a111" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a112" [label = "action31111112111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a113" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a114" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a115" [label = "action31111121111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a116" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a117" [label = "action31111211111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a118" [label="island6"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a119" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a120" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a121" [label = "action31112111111111111 "];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a122" [label = "action31211111111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a123" [label="mainland"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a124" [label="island1"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a125" [label="island2"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a126" [label="island3"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a127" [label="island4"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a128" [label="island5"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a129" [label="island6"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a130" [label="island7"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a131" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a132" [label="island9"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a133" [label="island11"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a134" [label = "action11111111312111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a135" [label="island9"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a136" [label="island11"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a137" [label = "action11111113112111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a138" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a139" [label="island9"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a140" [label="island11"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a141" [label = "action11111131112111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a142" [label="island7"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a143" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a144" [label="island9"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a145" [label="island11"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a146" [label = "action11111311112111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a147" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a148" [label = "action11111212211111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a149" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a150" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a151" [label = "action11111222111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a152" [label="island6"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a153" [label="island7"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a154" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a155" [label="island9"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a156" [label="island11"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a157" [label = "action11113111112111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a158" [label="island9"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a159" [label="island5"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a160" [label="island6"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a161" [label="island7"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a162" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a163" [label="island9"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a164" [label="island11"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a165" [label = "action11131111112111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a166" [label="island9"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a167" [label="island6"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a168" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a169" [label="island9"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a170" [label="island4"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a171" [label="island5"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a172" [label="island6"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a173" [label="island7"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a174" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a175" [label="island9"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a176" [label="island11"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a177" [label = "action11311111112111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a178" [label="island6"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a179" [label="island5"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a180" [label="island6"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a181" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a182" [label = "action11321111111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a183" [label="island6"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a184" [label="island7"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a185" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a186" [label="island3"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a187" [label="island4"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a188" [label="island5"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a189" [label="island6"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a190" [label="island7"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a191" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a192" [label="island9"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a193" [label="island11"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a194" [label = "action13111111112111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a195" [label="island5"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a196" [label="island6"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a197" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a198" [label = "action13121111111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a199" [label="island2"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a200" [label="island3"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a201" [label="island4"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a202" [label="island5"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a203" [label="island6"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a204" [label="island7"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a205" [label="island8"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a206" [label="island9"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a207" [label="island11"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a208" [label = "action31111111112111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a209" [label="island5"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a210" [label="island6"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a211" [label="island9"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a212" [label = "action31121111111111111 "];}
+"a11" -> "a12" [label = "sus"];
+"a11" -> "a13" [label = "inf"];
+"a10" -> "a11" [label = "sus"];
+"a10" -> "a14" [label = "inf"];
+"a9" -> "a10" [label = "sus"];
+"a15" -> "a16" [label = "sus"];
+"a15" -> "a17" [label = "inf"];
+"a9" -> "a15" [label = "inf"];
+"a8" -> "a9" [label = "sus"];
+"a19" -> "a20" [label = "sus"];
+"a19" -> "a21" [label = "inf"];
+"a18" -> "a19" [label = "sus"];
+"a22" -> "a23" [label = "sus"];
+"a22" -> "a17" [label = "inf"];
+"a18" -> "a22" [label = "inf"];
+"a8" -> "a18" [label = "inf"];
+"a7" -> "a8" [label = "sus"];
+"a26" -> "a27" [label = "sus"];
+"a26" -> "a28" [label = "inf"];
+"a25" -> "a26" [label = "sus"];
+"a29" -> "a30" [label = "sus"];
+"a29" -> "a28" [label = "inf"];
+"a25" -> "a29" [label = "inf"];
+"a24" -> "a25" [label = "sus"];
+"a32" -> "a33" [label = "sus"];
+"a32" -> "a28" [label = "inf"];
+"a31" -> "a32" [label = "sus"];
+"a31" -> "a29" [label = "inf"];
+"a24" -> "a31" [label = "inf"];
+"a7" -> "a24" [label = "inf"];
+"a6" -> "a7" [label = "sus"];
+"a37" -> "a38" [label = "sus"];
+"a37" -> "a39" [label = "inf"];
+"a36" -> "a37" [label = "sus"];
+"a40" -> "a41" [label = "sus"];
+"a40" -> "a39" [label = "inf"];
+"a36" -> "a40" [label = "inf"];
+"a35" -> "a36" [label = "sus"];
+"a43" -> "a44" [label = "sus"];
+"a43" -> "a39" [label = "inf"];
+"a42" -> "a43" [label = "sus"];
+"a42" -> "a40" [label = "inf"];
+"a35" -> "a42" [label = "inf"];
+"a34" -> "a35" [label = "sus"];
+"a45" -> "a46" [label = "sus"];
+"a45" -> "a28" [label = "inf"];
+"a34" -> "a45" [label = "inf"];
+"a6" -> "a34" [label = "inf"];
+"a5" -> "a6" [label = "sus"];
+"a51" -> "a52" [label = "sus"];
+"a51" -> "a53" [label = "inf"];
+"a50" -> "a51" [label = "sus"];
+"a54" -> "a55" [label = "sus"];
+"a54" -> "a53" [label = "inf"];
+"a50" -> "a54" [label = "inf"];
+"a49" -> "a50" [label = "sus"];
+"a57" -> "a58" [label = "sus"];
+"a57" -> "a53" [label = "inf"];
+"a56" -> "a57" [label = "sus"];
+"a56" -> "a54" [label = "inf"];
+"a49" -> "a56" [label = "inf"];
+"a48" -> "a49" [label = "sus"];
+"a59" -> "a60" [label = "sus"];
+"a59" -> "a28" [label = "inf"];
+"a48" -> "a59" [label = "inf"];
+"a47" -> "a48" [label = "sus"];
+"a63" -> "a64" [label = "sus"];
+"a63" -> "a39" [label = "inf"];
+"a62" -> "a63" [label = "sus"];
+"a62" -> "a40" [label = "inf"];
+"a61" -> "a62" [label = "sus"];
+"a61" -> "a45" [label = "inf"];
+"a47" -> "a61" [label = "inf"];
+"a5" -> "a47" [label = "inf"];
+"a4" -> "a5" [label = "sus"];
+"a69" -> "a70" [label = "sus"];
+"a69" -> "a71" [label = "inf"];
+"a68" -> "a69" [label = "sus"];
+"a72" -> "a73" [label = "sus"];
+"a72" -> "a71" [label = "inf"];
+"a68" -> "a72" [label = "inf"];
+"a67" -> "a68" [label = "sus"];
+"a75" -> "a76" [label = "sus"];
+"a75" -> "a71" [label = "inf"];
+"a74" -> "a75" [label = "sus"];
+"a74" -> "a72" [label = "inf"];
+"a67" -> "a74" [label = "inf"];
+"a66" -> "a67" [label = "sus"];
+"a77" -> "a78" [label = "sus"];
+"a77" -> "a71" [label = "inf"];
+"a66" -> "a77" [label = "inf"];
+"a65" -> "a66" [label = "sus"];
+"a81" -> "a82" [label = "sus"];
+"a81" -> "a71" [label = "inf"];
+"a80" -> "a81" [label = "sus"];
+"a80" -> "a72" [label = "inf"];
+"a79" -> "a80" [label = "sus"];
+"a79" -> "a77" [label = "inf"];
+"a65" -> "a79" [label = "inf"];
+"a4" -> "a65" [label = "inf"];
+"a3" -> "a4" [label = "sus"];
+"a88" -> "a89" [label = "sus"];
+"a88" -> "a90" [label = "inf"];
+"a87" -> "a88" [label = "sus"];
+"a91" -> "a92" [label = "sus"];
+"a91" -> "a90" [label = "inf"];
+"a87" -> "a91" [label = "inf"];
+"a86" -> "a87" [label = "sus"];
+"a94" -> "a95" [label = "sus"];
+"a94" -> "a90" [label = "inf"];
+"a93" -> "a94" [label = "sus"];
+"a93" -> "a91" [label = "inf"];
+"a86" -> "a93" [label = "inf"];
+"a85" -> "a86" [label = "sus"];
+"a96" -> "a97" [label = "sus"];
+"a96" -> "a90" [label = "inf"];
+"a85" -> "a96" [label = "inf"];
+"a84" -> "a85" [label = "sus"];
+"a100" -> "a101" [label = "sus"];
+"a100" -> "a90" [label = "inf"];
+"a99" -> "a100" [label = "sus"];
+"a99" -> "a91" [label = "inf"];
+"a98" -> "a99" [label = "sus"];
+"a98" -> "a96" [label = "inf"];
+"a84" -> "a98" [label = "inf"];
+"a83" -> "a84" [label = "sus"];
+"a83" -> "a102" [label = "inf"];
+"a3" -> "a83" [label = "inf"];
+"a2" -> "a3" [label = "sus"];
+"a109" -> "a12" [label = "sus"];
+"a109" -> "a110" [label = "inf"];
+"a108" -> "a109" [label = "sus"];
+"a111" -> "a112" [label = "sus"];
+"a111" -> "a110" [label = "inf"];
+"a108" -> "a111" [label = "inf"];
+"a107" -> "a108" [label = "sus"];
+"a114" -> "a115" [label = "sus"];
+"a114" -> "a110" [label = "inf"];
+"a113" -> "a114" [label = "sus"];
+"a113" -> "a111" [label = "inf"];
+"a107" -> "a113" [label = "inf"];
+"a106" -> "a107" [label = "sus"];
+"a116" -> "a117" [label = "sus"];
+"a116" -> "a110" [label = "inf"];
+"a106" -> "a116" [label = "inf"];
+"a105" -> "a106" [label = "sus"];
+"a120" -> "a121" [label = "sus"];
+"a120" -> "a110" [label = "inf"];
+"a119" -> "a120" [label = "sus"];
+"a119" -> "a111" [label = "inf"];
+"a118" -> "a119" [label = "sus"];
+"a118" -> "a116" [label = "inf"];
+"a105" -> "a118" [label = "inf"];
+"a104" -> "a105" [label = "sus"];
+"a104" -> "a122" [label = "inf"];
+"a103" -> "a104" [label = "sus"];
+"a103" -> "a12" [label = "inf"];
+"a2" -> "a103" [label = "inf"];
+"a1" -> "a2" [label = "sus"];
+"a1" -> "a12" [label = "inf"];
+"a0" -> "a1" [label = "dry"];
+"a132" -> "a11" [label = "sus"];
+"a133" -> "a14" [label = "sus"];
+"a133" -> "a134" [label = "inf"];
+"a132" -> "a133" [label = "inf"];
+"a131" -> "a132" [label = "sus"];
+"a136" -> "a16" [label = "sus"];
+"a136" -> "a137" [label = "inf"];
+"a135" -> "a136" [label = "sus"];
+"a135" -> "a17" [label = "inf"];
+"a131" -> "a135" [label = "inf"];
+"a130" -> "a131" [label = "sus"];
+"a140" -> "a20" [label = "sus"];
+"a140" -> "a141" [label = "inf"];
+"a139" -> "a140" [label = "sus"];
+"a139" -> "a21" [label = "inf"];
+"a138" -> "a139" [label = "sus"];
+"a138" -> "a22" [label = "inf"];
+"a130" -> "a138" [label = "inf"];
+"a129" -> "a130" [label = "sus"];
+"a145" -> "a27" [label = "sus"];
+"a145" -> "a146" [label = "inf"];
+"a144" -> "a145" [label = "sus"];
+"a144" -> "a28" [label = "inf"];
+"a143" -> "a144" [label = "sus"];
+"a147" -> "a30" [label = "sus"];
+"a147" -> "a148" [label = "inf"];
+"a143" -> "a147" [label = "inf"];
+"a142" -> "a143" [label = "sus"];
+"a149" -> "a32" [label = "sus"];
+"a150" -> "a151" [label = "sus"];
+"a150" -> "a148" [label = "inf"];
+"a149" -> "a150" [label = "inf"];
+"a142" -> "a149" [label = "inf"];
+"a129" -> "a142" [label = "inf"];
+"a128" -> "a129" [label = "sus"];
+"a156" -> "a38" [label = "sus"];
+"a156" -> "a157" [label = "inf"];
+"a155" -> "a156" [label = "sus"];
+"a155" -> "a39" [label = "inf"];
+"a154" -> "a155" [label = "sus"];
+"a154" -> "a40" [label = "inf"];
+"a153" -> "a154" [label = "sus"];
+"a153" -> "a42" [label = "inf"];
+"a152" -> "a153" [label = "sus"];
+"a158" -> "a46" [label = "sus"];
+"a158" -> "a39" [label = "inf"];
+"a152" -> "a158" [label = "inf"];
+"a128" -> "a152" [label = "inf"];
+"a127" -> "a128" [label = "sus"];
+"a164" -> "a52" [label = "sus"];
+"a164" -> "a165" [label = "inf"];
+"a163" -> "a164" [label = "sus"];
+"a163" -> "a53" [label = "inf"];
+"a162" -> "a163" [label = "sus"];
+"a162" -> "a54" [label = "inf"];
+"a161" -> "a162" [label = "sus"];
+"a161" -> "a56" [label = "inf"];
+"a160" -> "a161" [label = "sus"];
+"a166" -> "a60" [label = "sus"];
+"a166" -> "a53" [label = "inf"];
+"a160" -> "a166" [label = "inf"];
+"a159" -> "a160" [label = "sus"];
+"a168" -> "a64" [label = "sus"];
+"a169" -> "a64" [label = "sus"];
+"a169" -> "a53" [label = "inf"];
+"a168" -> "a169" [label = "inf"];
+"a167" -> "a168" [label = "sus"];
+"a167" -> "a169" [label = "inf"];
+"a159" -> "a167" [label = "inf"];
+"a127" -> "a159" [label = "inf"];
+"a126" -> "a127" [label = "sus"];
+"a176" -> "a70" [label = "sus"];
+"a176" -> "a177" [label = "inf"];
+"a175" -> "a176" [label = "sus"];
+"a175" -> "a71" [label = "inf"];
+"a174" -> "a175" [label = "sus"];
+"a174" -> "a72" [label = "inf"];
+"a173" -> "a174" [label = "sus"];
+"a173" -> "a74" [label = "inf"];
+"a172" -> "a173" [label = "sus"];
+"a172" -> "a77" [label = "inf"];
+"a171" -> "a172" [label = "sus"];
+"a178" -> "a82" [label = "sus"];
+"a178" -> "a81" [label = "inf"];
+"a171" -> "a178" [label = "inf"];
+"a170" -> "a171" [label = "sus"];
+"a181" -> "a182" [label = "sus"];
+"a181" -> "a71" [label = "inf"];
+"a180" -> "a181" [label = "sus"];
+"a180" -> "a77" [label = "inf"];
+"a179" -> "a180" [label = "sus"];
+"a184" -> "a82" [label = "sus"];
+"a185" -> "a82" [label = "sus"];
+"a185" -> "a81" [label = "inf"];
+"a184" -> "a185" [label = "inf"];
+"a183" -> "a184" [label = "sus"];
+"a183" -> "a81" [label = "inf"];
+"a179" -> "a183" [label = "inf"];
+"a170" -> "a179" [label = "inf"];
+"a126" -> "a170" [label = "inf"];
+"a125" -> "a126" [label = "sus"];
+"a193" -> "a89" [label = "sus"];
+"a193" -> "a194" [label = "inf"];
+"a192" -> "a193" [label = "sus"];
+"a192" -> "a90" [label = "inf"];
+"a191" -> "a192" [label = "sus"];
+"a191" -> "a91" [label = "inf"];
+"a190" -> "a191" [label = "sus"];
+"a190" -> "a93" [label = "inf"];
+"a189" -> "a190" [label = "sus"];
+"a189" -> "a96" [label = "inf"];
+"a188" -> "a189" [label = "sus"];
+"a188" -> "a100" [label = "inf"];
+"a187" -> "a188" [label = "sus"];
+"a197" -> "a198" [label = "sus"];
+"a197" -> "a90" [label = "inf"];
+"a196" -> "a197" [label = "sus"];
+"a196" -> "a96" [label = "inf"];
+"a195" -> "a196" [label = "sus"];
+"a195" -> "a100" [label = "inf"];
+"a187" -> "a195" [label = "inf"];
+"a186" -> "a187" [label = "sus"];
+"a186" -> "a102" [label = "inf"];
+"a125" -> "a186" [label = "inf"];
+"a124" -> "a125" [label = "sus"];
+"a207" -> "a12" [label = "sus"];
+"a207" -> "a208" [label = "inf"];
+"a206" -> "a207" [label = "sus"];
+"a206" -> "a110" [label = "inf"];
+"a205" -> "a206" [label = "sus"];
+"a205" -> "a111" [label = "inf"];
+"a204" -> "a205" [label = "sus"];
+"a204" -> "a113" [label = "inf"];
+"a203" -> "a204" [label = "sus"];
+"a203" -> "a116" [label = "inf"];
+"a202" -> "a203" [label = "sus"];
+"a202" -> "a120" [label = "inf"];
+"a201" -> "a202" [label = "sus"];
+"a211" -> "a212" [label = "sus"];
+"a211" -> "a110" [label = "inf"];
+"a210" -> "a211" [label = "sus"];
+"a210" -> "a116" [label = "inf"];
+"a209" -> "a210" [label = "sus"];
+"a209" -> "a120" [label = "inf"];
+"a201" -> "a209" [label = "inf"];
+"a200" -> "a201" [label = "sus"];
+"a200" -> "a122" [label = "inf"];
+"a199" -> "a200" [label = "sus"];
+"a199" -> "a12" [label = "inf"];
+"a124" -> "a199" [label = "inf"];
+"a123" -> "a124" [label = "sus"];
+"a123" -> "a12" [label = "inf"];
+"a0" -> "a123" [label = "wet"];
+}

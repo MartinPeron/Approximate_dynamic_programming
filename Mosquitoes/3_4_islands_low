@@ -1,0 +1,219 @@
+(variables 
+    (season dry wet)
+    (mainland sus inf)
+    (island1 sus inf)
+    (island2 sus inf)
+    (island3 sus inf))
+
+dd defaultseason
+	(season	(dry	(seasonwet))	(wet	(seasondry)))
+enddd
+
+dd island1action1
+	(island1	(inf	(season	(wet	(island1'	(inf (0.98854))	(sus (0.01146))))
+								(dry	(island1'	(inf (0.96376))	(sus (0.03624))))))
+				(sus	(island2	(inf 	(island3	(inf 	(island1'	(inf (0.18907))		(sus (0.81093))))
+														(sus 	(island1'	(inf (0.13793))		(sus (0.86207))))))
+									(sus 	(island3	(inf 	(island1'	(inf (0.12378))		(sus (0.87622))))
+														(sus 	(island1'	(inf (0.06852))	(sus (0.93148)))))))))
+enddd
+dd island1action2
+	(island1	(inf	(island1'	(inf (0.88779))	(sus (0.11221))))
+				(sus	(island2	(inf 	(island3	(inf 	(island1'	(inf (0.18907))		(sus (0.81093))))
+														(sus 	(island1'	(inf (0.13793))		(sus (0.86207))))))
+									(sus 	(island3	(inf 	(island1'	(inf (0.12378))		(sus (0.87622))))
+														(sus 	(island1'	(inf (0.06852))	(sus (0.93148)))))))))
+enddd
+dd island1action3
+	(island1	(inf	(island1'	(inf (0.82663))	(sus (0.17337))))
+				(sus	(island2	(inf 	(island3	(inf 	(island1'	(inf (0.18907))		(sus (0.81093))))
+														(sus 	(island1'	(inf (0.13793))		(sus (0.86207))))))
+									(sus 	(island3	(inf 	(island1'	(inf (0.12378))		(sus (0.87622))))
+														(sus 	(island1'	(inf (0.06852))	(sus (0.93148)))))))))
+enddd
+dd island2action1
+	(island2	(inf	(season	(wet	(island2'	(inf (0.9776))	(sus (0.0224))))
+								(dry	(island2'	(inf (0.94935))	(sus (0.05065))))))
+				(sus	(island1	(inf 	(island3	(inf 	(island2'	(inf (0.10149))		(sus (0.89851))))
+														(sus 	(island2'	(inf (0.08946))	(sus (0.91054))))))
+									(sus 	(island3	(inf 	(island2'	(inf (0.02915))		(sus (0.97085))))
+														(sus 	(island2'	(inf (0.01614))	(sus (0.98386)))))))))
+enddd
+dd island2action2
+	(island2	(inf	(island2'	(inf (0.8851))	(sus (0.1149))))
+				(sus	(island1	(inf 	(island3	(inf 	(island2'	(inf (0.10149))		(sus (0.89851))))
+														(sus 	(island2'	(inf (0.08946))	(sus (0.91054))))))
+									(sus 	(island3	(inf 	(island2'	(inf (0.02915))		(sus (0.97085))))
+														(sus 	(island2'	(inf (0.01614))	(sus (0.98386)))))))))
+enddd
+dd island2action3
+	(island2	(inf	(island2'	(inf (0.83043))	(sus (0.16957))))
+				(sus	(island1	(inf 	(island3	(inf 	(island2'	(inf (0.10149))		(sus (0.89851))))
+														(sus 	(island2'	(inf (0.08946))	(sus (0.91054))))))
+									(sus 	(island3	(inf 	(island2'	(inf (0.02915))		(sus (0.97085))))
+														(sus 	(island2'	(inf (0.01614))	(sus (0.98386)))))))))
+enddd
+dd island3action1
+	(island3	(inf	(season	(wet	(island3'	(inf (0.9776))	(sus (0.0224))))
+								(dry	(island3'	(inf (0.94935))	(sus (0.05065))))))
+				(sus	(island1	(inf 	(island2	(inf 	(island3'	(inf (0.11447))		(sus (0.88553))))
+														(sus 	(island3'	(inf (0.10261))		(sus (0.89739))))))
+									(sus 	(island2	(inf 	(island3'	(inf (0.05862))	(sus (0.94138))))
+														(sus 	(island3'	(inf (0.04601))	(sus (0.95399)))))))))
+enddd
+dd island3action2
+	(island3	(inf	(island3'	(inf (0.8851))	(sus (0.1149))))
+				(sus	(island1	(inf 	(island2	(inf 	(island3'	(inf (0.11447))		(sus (0.88553))))
+														(sus 	(island3'	(inf (0.10261))		(sus (0.89739))))))
+									(sus 	(island2	(inf 	(island3'	(inf (0.05862))	(sus (0.94138))))
+														(sus 	(island3'	(inf (0.04601))	(sus (0.95399)))))))))
+enddd
+dd island3action3
+	(island3	(inf	(island3'	(inf (0.83043))	(sus (0.16957))))
+				(sus	(island1	(inf 	(island2	(inf 	(island3'	(inf (0.11447))		(sus (0.88553))))
+														(sus 	(island3'	(inf (0.10261))		(sus (0.89739))))))
+									(sus 	(island2	(inf 	(island3'	(inf (0.05862))	(sus (0.94138))))
+														(sus 	(island3'	(inf (0.04601))	(sus (0.95399)))))))))
+enddd
+dd mainlanddd
+	(mainland	(inf	(mainlandinf))
+
+				(sus	(island1	(inf 	(island2	(inf 	(island3	(inf 	(mainland'	(inf (0.01403))	(sus (0.98597))))
+																			(sus 	(mainland'	(inf (0.01254))	(sus (0.98746))))))
+														(sus 	(island3	(inf 	(mainland'	(inf (0.0114))	(sus (0.9886))))
+																			(sus 	(mainland'	(inf (0.00992))	(sus (0.99008))))))))
+									(sus 	(island2	(inf 	(island3	(inf 	(mainland'	(inf (0.00415))	(sus (0.99585))))
+																			(sus 	(mainland'	(inf (0.00265))	(sus (0.99735))))))
+														(sus 	(island3	(inf 	(mainland'	(inf (0.0015))	(sus (0.9985))))
+																			(sus 	(mainland'	(inf (0))		(sus (1)))))))))))
+enddd
+action action111
+	season (defaultseason)
+	mainland (mainlanddd)
+	island1	(island1action1)
+	island2	(island2action1)
+	island3	(island3action1)
+endaction
+action action112
+	season (defaultseason)
+	mainland (mainlanddd)
+	island1	(island1action1)
+	island2	(island2action1)
+	island3	(island3action2)
+endaction
+action action113
+	season (defaultseason)
+	mainland (mainlanddd)
+	island1	(island1action1)
+	island2	(island2action1)
+	island3	(island3action3)
+endaction
+action action121
+	season (defaultseason)
+	mainland (mainlanddd)
+	island1	(island1action1)
+	island2	(island2action2)
+	island3	(island3action1)
+endaction
+action action122
+	season (defaultseason)
+	mainland (mainlanddd)
+	island1	(island1action1)
+	island2	(island2action2)
+	island3	(island3action2)
+endaction
+action action123
+	season (defaultseason)
+	mainland (mainlanddd)
+	island1	(island1action1)
+	island2	(island2action2)
+	island3	(island3action3)
+endaction
+action action131
+	season (defaultseason)
+	mainland (mainlanddd)
+	island1	(island1action1)
+	island2	(island2action3)
+	island3	(island3action1)
+endaction
+action action132
+	season (defaultseason)
+	mainland (mainlanddd)
+	island1	(island1action1)
+	island2	(island2action3)
+	island3	(island3action2)
+endaction
+action action211
+	season (defaultseason)
+	mainland (mainlanddd)
+	island1	(island1action2)
+	island2	(island2action1)
+	island3	(island3action1)
+endaction
+action action212
+	season (defaultseason)
+	mainland (mainlanddd)
+	island1	(island1action2)
+	island2	(island2action1)
+	island3	(island3action2)
+endaction
+action action213
+	season (defaultseason)
+	mainland (mainlanddd)
+	island1	(island1action2)
+	island2	(island2action1)
+	island3	(island3action3)
+endaction
+action action221
+	season (defaultseason)
+	mainland (mainlanddd)
+	island1	(island1action2)
+	island2	(island2action2)
+	island3	(island3action1)
+endaction
+action action222
+	season (defaultseason)
+	mainland (mainlanddd)
+	island1	(island1action2)
+	island2	(island2action2)
+	island3	(island3action2)
+endaction
+action action231
+	season (defaultseason)
+	mainland (mainlanddd)
+	island1	(island1action2)
+	island2	(island2action3)
+	island3	(island3action1)
+endaction
+action action311
+	season (defaultseason)
+	mainland (mainlanddd)
+	island1	(island1action3)
+	island2	(island2action1)
+	island3	(island3action1)
+endaction
+action action312
+	season (defaultseason)
+	mainland (mainlanddd)
+	island1	(island1action3)
+	island2	(island2action1)
+	island3	(island3action2)
+endaction
+action action321
+	season (defaultseason)
+	mainland (mainlanddd)
+	island1	(island1action3)
+	island2	(island2action2)
+	island3	(island3action1)
+endaction
+
+reward	(island1	(inf 	(island2	(inf 	(island3	(inf 0)
+															(sus 1)))
+										(sus 	(island3	(inf 1)
+															(sus 2)))))
+					(sus 	(island2	(inf 	(island3	(inf 1)
+															(sus 2)))
+										(sus 	(island3	(inf 2)
+															(sus 3))))))
+discount 0.99
+tolerance 0.01
