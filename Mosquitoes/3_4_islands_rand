@@ -1,0 +1,15 @@
+(variables 
+    (season dry wet)
+    (mainland sus inf)
+    (island1 sus inf)
+    (island2 sus inf)
+    (island3 sus inf))
+
+dd defaultseason
+	(season	(dry	(seasonwet))	(wet	(seasondry)))
+enddd
+
+dd island1action1
+	(island1	(inf	(season	(wet	(island1'	(inf (0.98668))	(sus (0.01332))))
+								(dry	(island1'	(inf (0.99131))	(sus (0.00869))))))
+				(sus	(island2	(inf 	(island3	(inf 

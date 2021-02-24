@@ -1,0 +1,38 @@
+(variables 
+    (season dry wet)
+    (island1 sus inf))
+
+dd defaultseason
+	(season	(dry	(seasonwet))	(wet	(seasondry)))
+enddd
+
+dd island1action1
+	(island1	(inf	(season	(wet	(island1'	(inf (0.98854))	(sus (0.01146))))
+								(dry	(island1'	(inf (0.96376))	(sus (0.03624))))))
+				(sus	(island1'	(inf (0.06852))	(sus (0.93148)))))
+enddd
+dd island1action2
+	(island1	(inf	(island1'	(inf (0.88779))	(sus (0.11221))))
+				(sus	(island1'	(inf (0.06852))	(sus (0.93148)))))
+enddd
+dd island1action3
+	(island1	(inf	(island1'	(inf (0.82663))	(sus (0.17337))))
+				(sus	(island1'	(inf (0.06852))	(sus (0.93148)))))
+enddd
+action action1
+	season (defaultseason)
+	island1	(island1action1)
+endaction
+action action2
+	season (defaultseason)
+	island1	(island1action2)
+endaction
+action action3
+	season (defaultseason)
+	island1	(island1action3)
+endaction
+
+reward	(island1	(inf (0))
+					(sus (1)))
+discount 0.95
+tolerance 0.01

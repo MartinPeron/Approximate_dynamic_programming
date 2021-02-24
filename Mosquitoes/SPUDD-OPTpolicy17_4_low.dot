@@ -1,0 +1,72 @@
+digraph "DD" {
+size = "7.5,10"
+ratio=1.0;
+center = true;
+edge [dir = none];
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a0" [label="season"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a1" [label="mainland"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a2" [label="island1"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a3" [label="island2"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a4" [label="island3"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a5" [label="island4"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a6" [label = "action32111111111111111 "];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a7" [label = "action21131111111111111 "];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a8" [label = "action21311111111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a9" [label="island3"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a10" [label = "action23111111111111111 "];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a11" [label = "action13211111111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a12" [label="island2"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a13" [label="island3"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a14" [label = "action31211111111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a15" [label="mainland"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a16" [label="island1"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a17" [label="island2"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a18" [label="island3"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a19" [label="island4"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a20" [label = "action11321111111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a21" [label="island3"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a22" [label="island4"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a23" [label = "action13121111111111111 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a24" [label="island2"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a25" [label="island3"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a26" [label="island4"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a27" [label = "action31121111111111111 "];}
+"a5" -> "a6" [label = "sus"];
+"a5" -> "a7" [label = "inf"];
+"a4" -> "a5" [label = "sus"];
+"a4" -> "a8" [label = "inf"];
+"a3" -> "a4" [label = "sus"];
+"a9" -> "a10" [label = "sus"];
+"a9" -> "a11" [label = "inf"];
+"a3" -> "a9" [label = "inf"];
+"a2" -> "a3" [label = "sus"];
+"a13" -> "a6" [label = "sus"];
+"a13" -> "a14" [label = "inf"];
+"a12" -> "a13" [label = "sus"];
+"a12" -> "a6" [label = "inf"];
+"a2" -> "a12" [label = "inf"];
+"a1" -> "a2" [label = "sus"];
+"a1" -> "a6" [label = "inf"];
+"a0" -> "a1" [label = "dry"];
+"a18" -> "a5" [label = "sus"];
+"a19" -> "a8" [label = "sus"];
+"a19" -> "a20" [label = "inf"];
+"a18" -> "a19" [label = "inf"];
+"a17" -> "a18" [label = "sus"];
+"a22" -> "a10" [label = "sus"];
+"a22" -> "a23" [label = "inf"];
+"a21" -> "a22" [label = "sus"];
+"a21" -> "a11" [label = "inf"];
+"a17" -> "a21" [label = "inf"];
+"a16" -> "a17" [label = "sus"];
+"a26" -> "a6" [label = "sus"];
+"a26" -> "a27" [label = "inf"];
+"a25" -> "a26" [label = "sus"];
+"a25" -> "a14" [label = "inf"];
+"a24" -> "a25" [label = "sus"];
+"a24" -> "a6" [label = "inf"];
+"a16" -> "a24" [label = "inf"];
+"a15" -> "a16" [label = "sus"];
+"a15" -> "a6" [label = "inf"];
+"a0" -> "a15" [label = "wet"];
+}

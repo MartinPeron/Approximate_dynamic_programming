@@ -1,0 +1,32 @@
+digraph "DD" {
+size = "7.5,10"
+ratio=1.0;
+center = true;
+edge [dir = none];
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a0" [label="mainland"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a1" [label="island1"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a2" [label="island2"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a3" [label="island3"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a4" [label = "action321 "];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a5" [label = "action213 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a6" [label="island3"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a7" [label = "action231 "];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a8" [label = "action132 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a9" [label="island2"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a10" [label="island3"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a11" [label = "action312 "];}
+"a3" -> "a4" [label = "sus"];
+"a3" -> "a5" [label = "inf"];
+"a2" -> "a3" [label = "sus"];
+"a6" -> "a7" [label = "sus"];
+"a6" -> "a8" [label = "inf"];
+"a2" -> "a6" [label = "inf"];
+"a1" -> "a2" [label = "sus"];
+"a10" -> "a4" [label = "sus"];
+"a10" -> "a11" [label = "inf"];
+"a9" -> "a10" [label = "sus"];
+"a9" -> "a4" [label = "inf"];
+"a1" -> "a9" [label = "inf"];
+"a0" -> "a1" [label = "sus"];
+"a0" -> "a4" [label = "inf"];
+}

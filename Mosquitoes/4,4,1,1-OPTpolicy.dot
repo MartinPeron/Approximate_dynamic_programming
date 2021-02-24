@@ -1,0 +1,70 @@
+digraph "DD" {
+size = "7.5,10"
+ratio=1.0;
+center = true;
+edge [dir = none];
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a0" [label="season"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a1" [label="island1"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a2" [label="island2"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a3" [label="island3"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a4" [label="island4"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a5" [label = "action3211 "];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a6" [label = "action2113 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a7" [label="island4"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a8" [label = "action2131 "];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a9" [label = "action1123 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a10" [label="island3"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a11" [label = "action2311 "];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a12" [label = "action1321 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a13" [label="island2"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a14" [label="island3"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a15" [label = "action3121 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a16" [label="island3"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a17" [label="island4"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a18" [label = "action2221 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a19" [label="island1"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a20" [label="island2"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a21" [label="island3"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a22" [label="island4"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a23" [label = "action1312 "];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a24" [label="island2"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a25" [label="island3"];}
+{ rank = same; node [shape=ellipse, style=filled, color=cornflowerblue];"a26" [label="island4"];}
+{ rank = same; node [shape=box, style=filled, color=goldenrod];"a27" [label = "action3112 "];}
+"a4" -> "a5" [label = "sus"];
+"a4" -> "a6" [label = "inf"];
+"a3" -> "a4" [label = "sus"];
+"a7" -> "a8" [label = "sus"];
+"a7" -> "a9" [label = "inf"];
+"a3" -> "a7" [label = "inf"];
+"a2" -> "a3" [label = "sus"];
+"a10" -> "a11" [label = "sus"];
+"a10" -> "a12" [label = "inf"];
+"a2" -> "a10" [label = "inf"];
+"a1" -> "a2" [label = "sus"];
+"a14" -> "a5" [label = "sus"];
+"a14" -> "a15" [label = "inf"];
+"a13" -> "a14" [label = "sus"];
+"a17" -> "a5" [label = "sus"];
+"a17" -> "a11" [label = "inf"];
+"a16" -> "a17" [label = "sus"];
+"a16" -> "a18" [label = "inf"];
+"a13" -> "a16" [label = "inf"];
+"a1" -> "a13" [label = "inf"];
+"a0" -> "a1" [label = "dry"];
+"a20" -> "a3" [label = "sus"];
+"a22" -> "a11" [label = "sus"];
+"a22" -> "a23" [label = "inf"];
+"a21" -> "a22" [label = "sus"];
+"a21" -> "a12" [label = "inf"];
+"a20" -> "a21" [label = "inf"];
+"a19" -> "a20" [label = "sus"];
+"a26" -> "a5" [label = "sus"];
+"a26" -> "a27" [label = "inf"];
+"a25" -> "a26" [label = "sus"];
+"a25" -> "a15" [label = "inf"];
+"a24" -> "a25" [label = "sus"];
+"a24" -> "a16" [label = "inf"];
+"a19" -> "a24" [label = "inf"];
+"a0" -> "a19" [label = "wet"];
+}
